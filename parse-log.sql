@@ -4,7 +4,9 @@
 -- Raw data is in format: [TIMESTAMPP] "GET/click?article_id=[ARTICLE_ID]&user_id=[USER_ID] HTTP/1.0" [STATUS_CODE] [BYTE_SIZE]
 
 
-CREATE TABLE clicks AS SELECT * FROM (
+CREATE TABLE clicks AS 
+SELECT * 
+FROM (
 	SELECT
 		CASE
 			WHEN SUBSTR(string,5,3)="Jan" THEN SUBSTR(string,9,4)||"-01-"||SUBSTR(string,2,2)||" "||SUBSTR(string,14,8)
