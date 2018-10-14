@@ -4,8 +4,7 @@ Full report can be read [here](https://github.com/whugue/clickstream-analysis/bl
 
 
 #### Database Schema
-![Database Schema](https://github.com/whugue/clickstream-analysis/blob/master/schema.png)
+![Database Schema](https://github.com/whugue/clickstream-analysis/blob/master/graphics/CTR analysis.png)
+_*=Primary Key_
 
-
-*[1] Clicks table created from parsed raw clickstream data for client, using [this SQL query](https://github.com/whugue/clickstream-analysis/blob/master/parse-log.sql). All other tables provided in clients content database.*
-
+_** Clicks table created from parsed raw clickstream data for client, using [this SQL query](https://github.com/whugue/clickstream-analysis/blob/master/parse-log.sql). All other tables provided in clients content database._
